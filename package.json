@@ -1,0 +1,17 @@
+{
+    "name": "ns-game-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@colyseus/monitor": "^0.11.5",
+        "colyseus": "^0.11.11",
+        "express": "^4.17.1",
+        "json-stringify-safe": "^5.0.1",
+        "lodash": "^4.17.14",
+        "uuid": "^3.3.2"
+    },
+    "scripts": {
+        "start": "node src/index.js"
+    }
+}
